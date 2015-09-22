@@ -1,0 +1,3 @@
+The SEPA-Modul uses an own button to record new SEPA-Contributions, existing contributions can't be changed into SEPA-Contributions and vice versa. Further the SEPA-Modul expects one [SDD Mandate](http://www.europeanpaymentscouncil.eu/index.cfm/sepa-direct-debit/the-sdd-mandate/) per contribution or recurring contribution – if you are only interested in collecting regular membership fees this will work, but if you need to collect multiple singe contributions with the same mandate this is a big restriction.
+
+This module works around these restrictions without the need to patch any of the original sepa module's code. However this does not guarenty that this module will work with future versions of the sepa module. 
